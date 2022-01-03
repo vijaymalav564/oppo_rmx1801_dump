@@ -1,0 +1,39 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+
+<permissions>
+    <feature name="oppo.feature.18321" />
+    <feature name="oppo.disable.small.window.leather" />
+    <!-- Zeqi.Shen@AD.Fingerprint.1127478, 2017/10/29, add for fingerpirnt feature -->
+    <feature name="android.hardware.fingerprint" />
+    <feature name="oppo.back.touch.fingerprint.sensor" />
+    <!-- Jun.Zhang@Plf.Framework, 2016/08/08, add for oppo multi app -->
+    <feature name="oppo.multiapp.support" />
+    <!-- Fangfang.Hui@PSW.AD.FaceRecognition.1070880, 2017/10/28, Add for Face recognition support -->
+    <feature name="oppo.hardware.face.support" />
+    <!-- Junhao.Liang@PSW.AD.FaceRecognition.1070880, 2018/06/19, Add for closed eye unlock -->
+    <feature name="oppo.face.closeeye.detect" />
+    <!-- ZhiYong@Plf.Framework, 2018/01/08, add for oppo freeform mode -->
+    <feature name="oppo.freeform.support" />
+    <!-- Zhengkang.Ji@Plf.Framework, 2018/02/19, add for oppo exp default browser -->
+    <feature name="oppo.exp.default.browser" />
+    <!-- Wenfeng.Li@PSW.AD.OppoFeature.CommonSoft.1305784, 2018/03/07, Add for narrow bezel support -->
+    <!--feature name="oppo.narrow.bezel.support" -->
+    <!-- kun.wang@PSW.BSP.TP, 2018/06/29, Add for narrow bezel support -->
+    <!-- feature name="oppo.narrow.bezel.support" -->
+    <!-- kun.wang@BSP.TP, 2018/08/12, Add for black gesture in 18321 -->
+    <feature name="oppo.lcd.first.tp.last.support" />
+    <!-- RunSheng.Pei@PSW.AD.Ams.1525698, 2018/08/22, Add for boost a little long time after bootcomplete -->
+    <feature name="oppo.system.bootcomplete.boostmore" />
+    <!-- Jindian.Guan@Camera.Drv, 2018/09/06, Add for camera anti-shake support -->
+    <feature name="oppo.camera.antishake.support" />
+    <!-- fanlijun@RM.AD.fingerprint, 2019/01/02, add for fingerprint keymode -->
+    <feature name="oppo.camera.fingerprint.shutter" />
+    <!-- Binqiang.Luo@RM.android.app, 2019/04/02, Add for show software store  -->
+    <feature name="oppo.oppomarket.flaginstall"/>
+    <!-- DunHui.Ye@PSW.RM.Android, 2019/04/23, add for low memory -->
+    <feature name="oppo.lowramclear.support" />
+    <feature name="oppo.rom.lowram.support" />
+    <feature name="realme.laboratory.support"/>
+    <!-- yangmingjin@BSP, 2019/07/17, add for hypnus benchmark perf mode  support-->
+    <feature name="realme.hypnus.perf.benchmark.support"/>
+</permissions>

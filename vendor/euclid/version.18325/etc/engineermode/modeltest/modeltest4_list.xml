@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem id="NormalCharger test" name="NormalChargerTest">
+        <intent>com.oppo.engineermode.charge.BatteryInfoShow.NormalCharger</intent>
+    </ModelItem>
+
+    <ModelItem id="FastCharger test" name="FastChargerTest">
+        <intent>com.oppo.engineermode.charge.BatteryInfoShow.FastCharger</intent>
+    </ModelItem>
+
+    <ModelItem id="RemoteControler test" name="IrRemoteControllerTest">
+        <intent>com.honestar.irtest.MainActivity</intent>
+    </ModelItem>
+</ModelTestList>

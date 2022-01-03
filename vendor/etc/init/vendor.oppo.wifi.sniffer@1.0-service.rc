@@ -1,0 +1,12 @@
+#ifdef VENDOR_EDIT
+#Xiao.Liang@Connectivity.WiFi.Basic 2018/11/30 add for wifi sniffer service
+
+service wifi_sniffer /vendor/bin/hw/vendor.oppo.wifi.sniffer@1.0-service
+    class main
+    user root
+
+on property:oppo.wifi.sniffer.copysnifferlog=1
+    exec u:r:rutilsdaemon:s0 root root -- /system/bin/mkdir -m 0771 /sdcard/oppo_log/
+    exec u:r:rutilsdaemon:s0 root root -- /system/bin/cp -R /data/vendor/wifi/sniffer_log/  /sdcard/oppo_log/
+    exec u:r:rutilsdaemon:s0 root root -- /system/bin/rm -rf /data/vendor/wifi/sniffer_log/
+#endif /* VENDOR_EDIT */

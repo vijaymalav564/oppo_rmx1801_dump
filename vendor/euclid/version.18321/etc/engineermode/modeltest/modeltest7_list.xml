@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem id="Echo Test" name="EchoTest">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelEchoTest</intent>
+    </ModelItem>
+
+    <ModelItem id="Headset Test" name="HeadsetTest">
+        <intent>com.oppo.engineermode.multimedia.HeadsetTest</intent>
+    </ModelItem>
+</ModelTestList>

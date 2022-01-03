@@ -1,0 +1,5 @@
+<permissions>
+   <!-- use for settings app -->
+  <feature name="oppo.settings.verification.dialog.disallow" />
+</permissions>
+

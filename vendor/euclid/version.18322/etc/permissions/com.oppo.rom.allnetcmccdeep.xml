@@ -1,0 +1,17 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.system.cmcc.protocol" />
+  <feature name="oppo.system.cmcc.filter" />
+  <feature name="oppo.browser.cmcc" />
+  <feature name="oppo.systemui.cmcc.icon.hd" />
+  <feature name="oppo.keyguard.show.networkstatus" />
+  <feature name="oppo.adb.needsimcard.manual" />
+  <feature name="oppo.adb.needsimcard.auto" />
+  <feature name="oppo.operationmanual.cmcc.support" />
+  <feature name="oppo.launcher.deep_cmcc.support" />
+  <feature name="oppo.assistantscreen.cmcc.support"/>
+  <feature name="oppo.simsettings.show.dialog.primary_change" />
+  <feature name="oppo.mms.rcs.support" />
+  <feature name="oppo.simsettings.show.cmcc.native.hall" />
+  <feature name="oppo.phone.video.ringtone.full.screen" />
+</permissions>

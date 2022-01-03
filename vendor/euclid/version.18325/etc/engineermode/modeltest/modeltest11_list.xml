@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem id="Camera test" name="CameraTest">
+        <intent>com.oppo.engineermode.camera.CameraTestController</intent>
+    </ModelItem>
+</ModelTestList>

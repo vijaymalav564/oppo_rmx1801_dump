@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem id="DualCamera Calibrate test" name="DualCameraVerification">
+        <intent>com.oppo.engineermode.manualtest.cameratest.CameraCalibrationTest</intent>
+        <name>dual_camera_verification</name>
+        <boolean>true</boolean>
+    </ModelItem>
+</ModelTestList>

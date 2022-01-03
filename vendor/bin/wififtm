@@ -1,0 +1,9 @@
+#!/vendor/bin/sh
+
+#insmod /vendor/lib/modules/qca_cld3/qca_cld3_wlan.ko
+#sleep 2
+ifconfig wlan0 up
+sleep 7
+echo 5 > /sys/module/wlan/parameters/con_mode
+#sleep 2
+ftmdaemon -n -dd

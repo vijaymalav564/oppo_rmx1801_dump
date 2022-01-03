@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem id="Fingerprint auto test" name="FingerprintAutoTest">
+        <intent>com.oppo.fingerprints.fingerprintsensortest.FingerPrintAutoTest</intent>
+    </ModelItem>
+
+    <ModelItem id="Fingerprint quality test" name="FingerprintQualityTest">
+        <intent>com.oppo.fingerprints.fingerprintsensortest.FingerPrintQualityTest</intent>
+    </ModelItem>
+</ModelTestList>

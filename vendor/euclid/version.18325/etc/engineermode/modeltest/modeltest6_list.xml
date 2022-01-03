@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem id="Lcd Backlight test" name="LcdBacklightTest">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelLcdBacklightTest</intent>
+    </ModelItem>
+
+    <ModelItem id="Breathlight test" name="BreathLightTest">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelBreathLigthTest</intent>
+    </ModelItem>
+
+    <ModelItem id="Lcd test" name="LcdColorTest">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelLcdColorTest</intent>
+    </ModelItem>
+
+    <ModelItem id="KeyBoard BackLight test" name="KeyboardBacklightTest">
+        <intent>com.oppo.engineermode.manualtest.modeltest.ModelKeyboardBackLight</intent>
+    </ModelItem>
+</ModelTestList>

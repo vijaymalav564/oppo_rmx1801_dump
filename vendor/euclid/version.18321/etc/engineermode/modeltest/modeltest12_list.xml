@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModelTestList>
+    <ModelItem id="Camera Ois Still Test" name="CameraOISStillTest">
+        <intent>com.oppo.engineermode.camera.CameraOisStillTest</intent>
+    </ModelItem>
+
+    <ModelItem id="Camera Optical Image Stabilizer" name="CameraOpticalImageStabilizer">
+        <intent>com.oppo.engineermode.camera.CameraOpticalImageStabilizer</intent>
+    </ModelItem>
+</ModelTestList>
