@@ -1,0 +1,7 @@
+jp.co.fsi.felicalock
+com.felicanetworks.mfw.a.main
+com.felicanetworks.mfm.main
+jp.co.fsi.felicalockpasswordreset
+com.felicanetworks.mfc
+com.felicanetworks.mfs
+com.felicanetworks.mfw.a.boot

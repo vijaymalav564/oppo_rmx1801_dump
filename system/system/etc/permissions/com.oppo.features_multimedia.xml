@@ -1,0 +1,6 @@
+<!-- This file is used by Multimedia Daemon Service (YaJun.li).  DO NOT MODIFY. -->
+<permissions>
+    <feature name="oppo.multimedia.record.conflict" />
+    <feature name="oppo.gamespace.voicechange.support" />
+    <feature name="oppo.multimedia.internal.record" />
+</permissions>

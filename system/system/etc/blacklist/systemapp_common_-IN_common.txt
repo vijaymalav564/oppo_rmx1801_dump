@@ -1,0 +1,12 @@
+com.heytap.browser
+com.heytap.market
+com.nearme.gamecenter
+com.redteamobile.roaming
+com.redteamobile.roaming.deamon
+com.heytap.cloud
+com.coloros.cloud
+com.coloros.ocrscanner
+com.coloros.ocrservice
+com.coloros.translate.engine
+com.coloros.operationtips
+com.oppo.market

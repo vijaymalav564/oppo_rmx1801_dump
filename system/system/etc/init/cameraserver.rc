@@ -1,0 +1,12 @@
+service cameraserver /system/bin/cameraserver
+    class main
+    user cameraserver
+#ifdef VENDOR_EDIT
+    #HongBo@Camera 20170221 add sdcard_rw user group
+    group audio camera input drmrpc sdcard_rw
+#else
+    #group audio camera input drmrpc
+#endif
+    ioprio rt 4
+    writepid /dev/cpuset/camera-daemon/tasks /dev/stune/foreground/tasks
+    rlimit rtprio 10 10

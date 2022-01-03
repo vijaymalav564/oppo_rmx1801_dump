@@ -1,0 +1,8 @@
+com.coloros.onekeylockscreen
+com.coloros.screenrecorder
+com.coloros.gamespaceui
+com.google.android.apps.docs
+com.google.android.apps.photos
+com.google.android.apps.tachyon
+com.google.android.videos
+com.google.android.apps.youtube.music

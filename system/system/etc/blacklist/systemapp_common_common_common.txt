@@ -1,0 +1,4 @@
+com.google.android.apps.googleassistant
+com.google.android.apps.photos
+com.google.android.apps.nbu.files
+com.google.ar.lens

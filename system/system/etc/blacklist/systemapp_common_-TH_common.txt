@@ -1,0 +1,7 @@
+com.heytap.browser
+com.heytap.market
+com.nearme.gamecenter
+com.redteamobile.roaming
+com.redteamobile.roaming.deamon
+com.heytap.cloud
+com.coloros.cloud

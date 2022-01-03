@@ -1,0 +1,9 @@
+subsystem adf
+	devname uevent_devname
+
+#Runsheng.Pei@PSW.AD.Storage.ReservePartition.1207580, 2017/12/29, Add for new reserve partition
+
+/dev/block/bootdevice/by-name/opporeserve1               0660   system     system
+/dev/block/mmcblk0p6   0660   system     system
+#Xuefeng.Peng@PSW.AD.BaseConfig.1501234, 2018/07/26, Add for emmc/ufs compatible
+/dev/block/sdf6 0660   system     system

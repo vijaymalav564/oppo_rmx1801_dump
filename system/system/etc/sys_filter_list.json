@@ -1,0 +1,10 @@
+{
+  "comment"       : "editable description",
+  "version"       : 20190930,
+  "filter_content": [
+    {
+      "name": "gl_oom",
+      "tag" : ["com.instagram.android", "com.facebook.katana", "com.facebook.orca", "com.facebook.pages.app", "com.excean.gspace"]
+    }
+  ]
+}

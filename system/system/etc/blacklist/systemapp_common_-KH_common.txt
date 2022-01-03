@@ -1,0 +1,4 @@
+com.redteamobile.roaming
+com.redteamobile.roaming.deamon
+com.heytap.cloud
+com.coloros.cloud

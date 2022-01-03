@@ -1,0 +1,169 @@
+##################################################################################
+### VENDOR_EDIT, OPPO All rights reserved.
+###
+### File: - init.oppo.rc
+### Author: jiangyg@PM
+###
+### ------------------------------- Revision History: ----------------------------
+### <author>                        <data>       <version>   <desc>
+### ------------------------------------------------------------------------------
+### jiangyg@PM                     2013-10-21                Create this file
+##################################################################################
+
+#Runsheng.Pei@PSW.AD.Storage.ReservePartition.1207580, 2017/12/29, Add for new reserve partition
+import /vendor/etc/init/hw/init.oppo.reserve.rc
+
+#ifdef VENDOR_EDIT
+#Hongdao.yu@BSP.Fingerprint.Basic, 2017/11/27, Add for face face recognition rc
+import /vendor/etc/init/hw/init.oppo.face.rc
+#endif
+
+#ifdef VENDOR_EDIT
+#Haitao.Zhou@Prd.BaseDrv, 2017/02/16 Add for fingerprint compatibility
+import /vendor/etc/init/hw/init.oppo.fingerprints.rc
+#endif
+
+#ifdef VENDOR_EDIT
+#Dongnan.Wu@BSP.Fingerprint.Basic. 2018/10/24. Add for fingerprint
+import /init.oppo.fingerprints.rc
+#endif
+
+#ifdef VENDOR_EDIT
+#Dongnan.Wu@BSP.Fingerprint.Basic, 2018/11/07, Add for face
+import /init.oppo.face.rc
+#endif
+
+#ifdef VENDOR_EDIT
+#Dongnan.Wu@BSP.Fingerprint.Basic, 2018/11/16,  Add for seccommon
+import /init.oppo.seccommon.rc
+#endif
+
+
+#ifdef VENDOR_EDIT
+#YaJun.Li@PSW.MM.Daemon.Atlas.1332843,2018/10/12,add for atlas
+service atlasservice /system/bin/atlasservice
+    class core
+    user system
+    group graphics drmrpc readproc
+#endif
+
+#ifdef VENDOR_EDIT
+#Liangwen.Ke@PSW.CN.BT.Basic.Customize.2120948, 2019/06/26,
+#Add for supporting QC firmware update by sau_res
+
+on post-fs-data
+    mkdir /data/vendor/bluetooth/fw 0770 bluetooth bluetooth
+
+service btfirmwareupdate /system/bin/init.oppo.bluetooth.sh "btfirmwareupdate"
+    class core
+    user root
+    disabled
+    seclabel u:r:rutilsdaemon:s0
+    oneshot
+
+service btfirmwaredelete /system/bin/init.oppo.bluetooth.sh "btfirmwaredelete"
+    class core
+    user root
+    disabled
+    seclabel u:r:rutilsdaemon:s0
+    oneshot
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#WeiHong.Li@Mobile.Network, 2015/09/11, Add suid_dumpable to capture rild's tombstone according to case 02090380
+#Zhengpeng@OnLineRD.AirService.RIL, 2013/11/4, Add for create opponvitems dir
+on boot
+    mkdir /persist/camera 0777 system system
+    mkdir /data/opponvitems  0771 radio radio
+    write /proc/sys/fs/suid_dumpable 1
+    chmod 0660 /dev/mdmreason
+    chown system system /dev/mdmreason
+
+#WeiHong.Li@Mobile.Network, 2015/09/11, disalbe suid_dumpable if release_type=true to pass cts test
+on property:ro.build.release_type=true
+    write /proc/sys/fs/suid_dumpable 0
+#endif
+
+#ifdef VENDOR_EDIT
+#PengNan@Mobile.BSP.CHG 2016/07/25 add for otg_switch
+on property:persist.sys.oppo.otg_support=true
+    write /sys/class/power_supply/usb/otg_switch 1
+
+on property:persist.sys.oppo.otg_support=false
+    write /sys/class/power_supply/usb/otg_switch 0
+#endif
+
+#ifdef VENDOR_EDIT
+#Jianrong.Zheng@PSW.AD.Power.Breathing.1055235, 2015/12/14, Add for oppo breath light
+on boot
+    chown system system /sys/class/leds/white/brightness
+    chown system system /sys/class/leds/white/device/grpfreq
+    chown system system /sys/class/leds/white/device/grppwm
+    chown system system /sys/class/leds/white/device/blink
+    chown system system /sys/class/leds/white/blink
+#endif
+
+#ifdef VENDOR_EDIT
+#wenhua.Leng@SWDP.MM.Display.LCD, 2018/4/18 Add for display
+    chown system system /sys/kernel/oppo_display/dump_info
+    chown system system /sys/kernel/oppo_display/hbm
+    chown system system /sys/kernel/oppo_display/seed
+    chown system system /sys/kernel/oppo_display/dimlayer_bl_en
+    chown system system /sys/kernel/oppo_display/ffl_set
+    chown system system /sys/kernel/oppo_display/dimlayer_hbm
+    chown system system /sys/kernel/oppo_display/force_screenfp
+    chown system system /sys/kernel/oppo_display/notify_fppress
+    chown system system /sys/kernel/oppo_display/aod_light_mode_set
+
+    chmod 0666 /sys/kernel/oppo_display/dump_info
+    chmod 0666 /sys/kernel/oppo_display/hbm
+    chmod 0666 /sys/kernel/oppo_display/seed
+    chmod 0666 /sys/kernel/oppo_display/dimlayer_bl_en
+    chmod 0666 /sys/kernel/oppo_display/ffl_set
+    chmod 0666 /sys/kernel/oppo_display/dimlayer_hbm
+    chmod 0666 /sys/kernel/oppo_display/force_screenfp
+    chmod 0666 /sys/kernel/oppo_display/notify_fppress
+    chmod 0666 /sys/kernel/oppo_display/aod_light_mode_set
+#Jie.Hu@SWDP.MM.Display.LCD, 2018/4/19 Add for display
+    chown system system /sys/kernel/oppo_display/power_status
+    chown system system /sys/kernel/oppo_display/sau_closebl_node
+    chown system system /sys/kernel/oppo_display/esd_status
+
+    chmod 0666 /sys/kernel/oppo_display/power_status
+    chmod 0666 /sys/kernel/oppo_display/sau_closebl_node
+    chmod 0666 /sys/kernel/oppo_display/esd_status
+#Rongchun.zhang@PSW.MM.Display, 2017/07/03, Add for Rom Update.[From: Deliang.Peng@PSW.MM.Performance.Display]
+    chmod 0644 /data/oppo/multimedia/oppo_display_perf_list.xml
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Jianchao.Shi@Mobile.BSP.CHG 2018/03/20, sjc Add for bsp criticallog
+service bspCriticalLog /system/bin/bspCriticalLog
+    user system
+    group system
+    class main
+#endif
+
+#ifdef VENDOR_EDIT
+#ruhong.huang@CN.NFC.Basic.hardware 2087979, 2019/06/12, add for test nfc before NFC ON
+service oppopnscrcmd /system/bin/oppopnscrcmd
+    user root
+    group root system nfc
+    oneshot
+    seclabel u:r:rutilsdaemon:s0
+    disabled
+
+on property:persist.sys.nfc_pnscr_start=1
+    start oppopnscrcmd
+
+on property:persist.sys.nfc_pnscr_start=0
+    stop oppopnscrcmd
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#chenlili@oppo.com 2019/07/16, add for oiface RUS feature
+on post-fs-data
+    mkdir /data/oiface 0700 system system
+    mkdir /data/elsa 0700 system system
+    mkdir /data/kneuron 0700 system system
+#endif
