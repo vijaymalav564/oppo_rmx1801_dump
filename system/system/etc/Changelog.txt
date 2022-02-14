@@ -1,0 +1,136 @@
+====================
+     02-13-2022
+====================
+
+   * frameworks/base
+43325677 User toggle for GamesProp [1/2]
+
+   * packages/apps/Launcher3
+e0f693b Launcher3: Make lens available without lens package
+
+   * packages/apps/crDroidSettings
+6544718 User toggle for GamesProp [2/2]
+
+   * vendor/addons
+c10ce30 addons: Add Outline iconpack
+
+====================
+     02-12-2022
+====================
+
+   * android
+e85ed4e Merge 'lineage-19.0' into 12.0
+
+====================
+     02-11-2022
+====================
+
+   * build/make
+848a399 Merge 'lineage-19.0' into 12.0
+
+   * device/lineage/car
+efc6039 Use v2 audiocontrol hal
+
+   * frameworks/av
+ad1f5ca av: support per-app volume [1/3]
+
+   * hardware/qcom-caf/sm8250/audio
+25aa975 Specify version for aidl_interface explicitly
+
+   * hardware/qcom-caf/sm8250/media
+6e8696e media: Add local fastcv header
+
+   * packages/apps/Settings
+82283d2 Settings: Add activity for cutout force full screen
+
+   * prebuilts/clang/host/linux-x86/clang-latest
+5e085b1 clang 14.0.2
+
+   * system/bt
+a5daabf Merge 'lineage-19.0' into 12.0
+
+   * vendor/lineage
+c23a873 crdroid: Bump to version 8.2
+
+====================
+     02-10-2022
+====================
+
+   * device/lineage/sepolicy
+9843f08 common: allow mediaserver to get media_wfd_prop
+
+   * packages/providers/MediaProvider
+592a9db Merge tag 'android-12.0.0_r29' into staging/lineage-19.0_merge-android-12.0.0_r29
+
+====================
+     02-09-2022
+====================
+
+   * external/nano
+0ec7ba4 nano: Use libc's glob.h to avoid depending on libssh
+
+   * packages/apps/LineageParts
+3747101 Update color mode preview from Android 12
+
+====================
+     02-08-2022
+====================
+
+   * device/qcom/sepolicy
+c58a6f2 sepolicy: Unlabel aux camera whitelist prop
+
+   * device/qcom/sepolicy-legacy-um
+f793c3f sepolicy: Remove duplicate property definition
+
+   * external/bash
+9f59ea3 bash: Set proper env PATH for Android
+
+   * external/vim
+f295b0c vim: Move to /system_ext
+
+   * frameworks/libs/net
+ee4454c Cloudflare and AdGuard DNS (#1)
+
+   * packages/apps/GamingMode
+0346da4 New translations (#7)
+
+   * packages/apps/Updater
+a3c03ed New translations (#11)
+
+   * packages/modules/Connectivity
+af01307 Merge pull request #1 from ShevT/12.0
+
+====================
+     02-07-2022
+====================
+
+   * packages/apps/AudioFX
+645010f Use the standard AudioEffect APIs to retrieve sessions
+
+====================
+     02-06-2022
+====================
+
+   * packages/services/Telecomm
+36de979 Telecomm: Add ringer vibration patterns from OOS [3/3]
+
+====================
+     02-05-2022
+====================
+
+   * packages/apps/FlipFlap
+084c376 FlipFlap: Remove RECEIVE_BOOT_COMPLETED uses-permission
+
+====================
+     02-04-2022
+====================
+
+   * build/soong
+0ccd900 Add exported-to-kati namespaces to root namespace
+
+   * packages/apps/Eleven
+a896ae2 Eleven: prevent NPEs when requesting permissions
+
+   * system/core
+f2d3859 Merge pull request #5 from Albinoman887/12.0
+
