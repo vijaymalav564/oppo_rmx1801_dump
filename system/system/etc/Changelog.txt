@@ -1,0 +1,156 @@
+====================
+    06-19-2022     
+====================
+
+* bootable/recovery
+cb7f34c  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//bootable/recovery into HEAD  [NurKeinNeid]
+
+
+* build/make
+2eda22b  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/build into HEAD  [NurKeinNeid]
+
+
+* build/soong
+f8ac01e  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//build/soong into HEAD  [NurKeinNeid]
+
+
+* frameworks/av
+1104554  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//frameworks/av into HEAD  [NurKeinNeid]
+
+
+* frameworks/base
+7f8bfe9  SystemUI: Refactor MobileSignalController implementation  [Pranav Vashi]
+
+
+* frameworks/native
+758fa77  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//frameworks/native into 12.1-next  [NurKeinNeid]
+
+
+* frameworks/opt/telephony
+797a603  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD  [NurKeinNeid]
+
+
+* hardware/interfaces
+df613a8  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//hardware/interfaces into HEAD  [NurKeinNeid]
+
+
+* hardware/libhardware
+f8e60a1  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//hardware/libhardware into HEAD  [NurKeinNeid]
+
+
+* manifest
+8c42696  manifest: Drop Lawnicons  [NurKeinNeid]
+
+
+* packages/apps/Bluetooth
+974e5a0  Bluetooth: Redesign BluetoothOppTransferHistory page  [Col_or]
+
+
+* packages/apps/DerpLauncher
+c2cab0c  DerpLauncher: Import some themed icons  [Sarthak Roy]
+
+
+* packages/apps/DerpSpace
+baafd0a  Revert "DerpSpace: Pixel Navbar animation toggle [2/2]"  [NurKeinNeid]
+
+
+* packages/apps/FaceUnlockService
+7db7ba1  Merge branch 'twelve' of https://github.com/PixelExperience/packages_apps_FaceUnlockService into HEAD  [NurKeinNeid]
+
+
+* packages/apps/Nfc
+e42441d  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/apps/Nfc into HEAD  [NurKeinNeid]
+
+
+* packages/apps/Settings
+31d9dd5  Settings: Move touch prefs to correct folder  [jhenrique09]
+
+
+* packages/apps/ThemePicker
+0561fac  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/apps/ThemePicker into HEAD  [NurKeinNeid]
+
+
+* packages/apps/WallpaperPicker2
+7313db4  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/apps/WallpaperPicker2 into HEAD  [NurKeinNeid]
+
+
+* packages/modules/Connectivity
+4d05ce5  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/modules/Connectivity into HEAD  [NurKeinNeid]
+
+
+* packages/modules/Permission
+5b1c3cc  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/modules/Permission into 12.1-next  [NurKeinNeid]
+
+
+* packages/modules/Wifi
+3a033e5  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/modules/Wifi into HEAD  [NurKeinNeid]
+
+
+* packages/modules/adb
+25d5c1e  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/modules/adb into HEAD  [NurKeinNeid]
+
+
+* packages/providers/DownloadProvider
+97e957a  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/providers/DownloadProvider into HEAD  [NurKeinNeid]
+
+
+* packages/providers/MediaProvider
+a21d889  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/providers/MediaProvider into HEAD  [NurKeinNeid]
+
+
+* packages/services/Telecomm
+35fb109  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//packages/services/Telecomm into 12.1-bak  [NurKeinNeid]
+
+
+* packages/services/Telephony
+974517c  Telephony: Add ERI configuration for U.S. Cellular  [Arne Coucheron]
+
+
+* system/apex
+e144141  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/apex into HEAD  [NurKeinNeid]
+
+
+* system/bt
+9de8c18  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/bt into HEAD  [NurKeinNeid]
+
+
+* system/core
+af46bb3  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/core into HEAD  [NurKeinNeid]
+
+
+* system/security
+ef645df  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//system/security into HEAD  [NurKeinNeid]
+
+
+* system/sepolicy
+3b54768  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform//system/sepolicy into HEAD  [NurKeinNeid]
+
+
+* system/vold
+2890ff3  Merge tag 'android-12.1.0_r8' of https://android.googlesource.com/platform/system/vold into HEAD  [NurKeinNeid]
+
+
+* vendor/derp
+7ba0089  Revert "overlay: Include Lawnicons"  [NurKeinNeid]
+
+
+* vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+8014d49  Bluetooth: Redesign BluetoothOppTransferHistory page  [Col_or]
+
+
+====================
+    06-18-2022     
+====================
+
+====================
+    06-17-2022     
+====================
+
+====================
+    06-16-2022     
+====================
+
+====================
+    06-15-2022     
+====================
+
