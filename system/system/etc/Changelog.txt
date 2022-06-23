@@ -1,0 +1,182 @@
+====================
+     06-12-2022
+====================
+
+
+   * build/make
+2006858 Merge tag 'android-12.1.0_r7' into s12.1
+
+   * build/soong
+93f2d2a Merge tag 'android-12.1.0_r7' into s12.1
+
+   * frameworks/native
+8ca0062 Merge tag 'android-12.1.0_r7' into s12.1
+
+   * packages/apps/Contacts
+541f229 Merge tag 'android-12.1.0_r7' into s12.1
+
+   * packages/apps/Dialer
+40d7008 Merge tag 'android-12.1.0_r7' into s12.1
+
+   * packages/apps/Launcher3
+3518326 Merge tag 'android-12.1.0_r7' into s12.1
+
+   * packages/apps/Messaging
+b3b4c9a Merge tag 'android-12.1.0_r7' into s12.1
+
+   * packages/apps/Settings
+11b2eab Development: AlarmBlocker|WakelockBlocker: Disable back arrow
+
+   * packages/apps/ThemePicker
+ca3eddb Merge tag 'android-12.1.0_r7' into s12.1
+
+   * packages/modules/Connectivity
+594326b Merge tag 'android-12.1.0_r7' into s12.1
+
+   * packages/modules/Permission
+93e8e8e Merge tag 'android-12.1.0_r7' into s12.1
+
+   * packages/services/Telecomm
+42bd874 Merge tag 'android-12.1.0_r7' into s12.1
+
+   * system/sepolicy
+5e0e69e Merge tag 'android-12.1.0_r7' into s12.1
+
+   * vendor/aicp
+99301e0 Merge "vendor_aicp: overlay: show all icons in collapsed statusbar" into s12.1
+
+====================
+     06-11-2022
+====================
+
+
+   * external/hosts
+11b8c3d Release 3.10.8
+
+   * frameworks/base
+d728d31b Merge tag 'android-12.1.0_r7' into s12.1
+
+====================
+     06-10-2022
+====================
+
+
+   * packages/apps/AicpExtras
+5f83d98 AE: Rework brightness slider
+
+   * tools/extract-utils
+58851a0 extract_utils: Add a script to reorder blobs list
+
+====================
+     06-09-2022
+====================
+
+
+   * platform_manifest
+05b5ebb manifest: android-12.1.0_r5 --> android-12.1.0_r7
+
+   * system/core
+d6797c2 Merge tag 'android-12.1.0_r7' into s12.1
+
+   * vendor/nxp/opensource/commonsys/external/libnfc-nci
+57a3085 OOBR in nfc_ncif_proc_ee_discover_req()
+
+   * vendor/nxp/opensource/commonsys/packages/apps/Nfc
+35a6b66 OOB read in phNciNfc_RecvMfResp()
+
+====================
+     06-08-2022
+====================
+
+
+   * frameworks/av
+6644193 Merge tag 'android-12.1.0_r7' into s12.1
+
+====================
+     06-07-2022
+====================
+
+
+   * bootable/recovery
+d536eb6 Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * frameworks/opt/telephony
+a00904a Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * hardware/google/pixel
+6c35546 Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * hardware/interfaces
+381daeb Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * hardware/libhardware
+179218f Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * hardware/qcom-caf/common
+01ed0fc Add reverse engineered nqnfcinfo binary
+
+   * packages/apps/Bluetooth
+a949097 Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * packages/apps/Nfc
+7c346e3 Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * packages/modules/Wifi
+ec514fb Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * packages/modules/adb
+1b1733d Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * packages/providers/DownloadProvider
+c992ec0 Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * packages/services/Telephony
+fddd43b Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * system/bt
+777c2ca Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * system/security
+d8fbb1f Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+   * system/vold
+f449ab1 Merge tag 'android-12.1.0_r7' into staging/lineage-19.1_merge-android-12.1.0_r7
+
+====================
+     06-06-2022
+====================
+
+
+====================
+     06-05-2022
+====================
+
+
+   * external/selinux
+6259286 Fix boot on Moto devices using unknown class
+
+   * packages/overlays/AICP
+0a6d394 overlays: port forward ThemePicker overlays from R
+
+   * system/bpf
+5ba2523 Ignore bpf errors for < 4.9 kernels
+
+   * system/netd
+c3f365d Ignore netd errors for < 4.9 kernels
+
+====================
+     06-04-2022
+====================
+
+
+   * packages/apps/Camera2
+f67f44f Camera2: add QR scanner QS tile
+
+====================
+     06-03-2022
+====================
+
+
+   * hardware/lineage/interfaces
+661f76b fastboot: Implement oem getprop command
+

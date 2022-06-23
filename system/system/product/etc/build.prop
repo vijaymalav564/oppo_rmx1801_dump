@@ -1,0 +1,15 @@
+####################################
+# from variable ADDITIONAL_PRODUCT_PROPERTIES
+####################################
+ro.build.characteristics=default
+####################################
+# from variable PRODUCT_PRODUCT_PROPERTIES
+####################################
+ro.config.ringtone=The_big_adventure.ogg
+ro.config.notification_sound=Duet.ogg
+ro.config.alarm_alert=Sunshower.ogg
+ro.support_one_handed_mode=true
+ro.charger.enable_suspend=true
+# Auto-added by post_process_props.py
+persist.sys.usb.config=adb
+# end of file
